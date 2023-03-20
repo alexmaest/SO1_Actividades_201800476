@@ -1,0 +1,9 @@
+[Unit]
+Description=Actividad4
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash ./saludo.sh
+
+[Install]
+WantedBy=multi-user.target
